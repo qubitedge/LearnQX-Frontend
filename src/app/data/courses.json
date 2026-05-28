@@ -1,0 +1,140 @@
+[
+  {
+    "id": "1",
+    "title": "Advanced Machine Learning & Deep Learning",
+    "instructor": "Dr. G. Jayasuma",
+    "instructorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jayasuma",
+    "thumbnail": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=800&h=600&fit=crop",
+    "description": "Master the fundamentals and advanced concepts of machine learning and deep neural networks.",
+    "duration": "12 weeks",
+    "difficulty": "Advanced",
+    "rating": 4.8,
+    "studentsEnrolled": 2543,
+    "price": 99.99,
+    "category": "Technology",
+    "modules": 10,
+    "totalLessons": 45,
+    "learningOutcomes": [
+      "Build and train deep neural networks",
+      "Implement CNN and RNN architectures",
+      "Master TensorFlow and PyTorch frameworks",
+      "Deploy ML models to production"
+    ],
+    "tags": ["AI", "Machine Learning", "Deep Learning", "Python"]
+  },
+  {
+    "id": "2",
+    "title": "Full Stack Web Development Bootcamp",
+    "instructor": "Dr. G. Jayasuma",
+    "instructorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jayasuma",
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop",
+    "description": "Become a full-stack developer by learning HTML, CSS, JavaScript, React, Node.js, and MongoDB.",
+    "duration": "16 weeks",
+    "difficulty": "Intermediate",
+    "rating": 4.9,
+    "studentsEnrolled": 5421,
+    "price": 79.99,
+    "category": "Development",
+    "modules": 12,
+    "totalLessons": 68,
+    "learningOutcomes": [
+      "Build responsive web applications",
+      "Master React and modern JavaScript",
+      "Create RESTful APIs with Node.js",
+      "Deploy applications to cloud platforms"
+    ],
+    "tags": ["Web Development", "React", "Node.js", "JavaScript"]
+  },
+  {
+    "id": "3",
+    "title": "Data Science with Python",
+    "instructor": "Dr. G. Jayasuma",
+    "instructorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jayasuma",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    "description": "Learn data analysis, visualization, and machine learning using Python and its powerful libraries.",
+    "duration": "10 weeks",
+    "difficulty": "Intermediate",
+    "rating": 4.7,
+    "studentsEnrolled": 3876,
+    "price": 69.99,
+    "category": "Data Science",
+    "modules": 8,
+    "totalLessons": 52,
+    "learningOutcomes": [
+      "Analyze and visualize data with pandas and matplotlib",
+      "Build machine learning models with scikit-learn",
+      "Work with real-world datasets",
+      "Create data-driven insights and reports"
+    ],
+    "tags": ["Data Science", "Python", "Machine Learning", "Analytics"]
+  },
+  {
+    "id": "4",
+    "title": "UI/UX Design Masterclass",
+    "instructor": "Dr. G. Jayasuma",
+    "instructorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jayasuma",
+    "thumbnail": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop",
+    "description": "Master the art of creating beautiful, user-centered designs using industry-standard tools.",
+    "duration": "8 weeks",
+    "difficulty": "Beginner",
+    "rating": 4.6,
+    "studentsEnrolled": 4231,
+    "price": 59.99,
+    "category": "Design",
+    "modules": 6,
+    "totalLessons": 38,
+    "learningOutcomes": [
+      "Understand user research and personas",
+      "Create wireframes and prototypes",
+      "Master Figma and Adobe XD",
+      "Apply design principles and best practices"
+    ],
+    "tags": ["UI/UX", "Design", "Figma", "Prototyping"]
+  },
+  {
+    "id": "5",
+    "title": "Cloud Computing with AWS",
+    "instructor": "Dr. G. Jayasuma",
+    "instructorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jayasuma",
+    "thumbnail": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop",
+    "description": "Learn to build, deploy, and manage applications on Amazon Web Services.",
+    "duration": "14 weeks",
+    "difficulty": "Advanced",
+    "rating": 4.8,
+    "studentsEnrolled": 2987,
+    "price": 89.99,
+    "category": "Cloud",
+    "modules": 10,
+    "totalLessons": 56,
+    "learningOutcomes": [
+      "Master core AWS services (EC2, S3, RDS, Lambda)",
+      "Implement security best practices",
+      "Design scalable cloud architectures",
+      "Prepare for AWS certification"
+    ],
+    "tags": ["AWS", "Cloud Computing", "DevOps", "Infrastructure"]
+  },
+  {
+    "id": "6",
+    "title": "Mobile App Development with React Native",
+    "instructor": "Dr. G. Jayasuma",
+    "instructorAvatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jayasuma",
+    "thumbnail": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop",
+    "description": "Build cross-platform mobile applications for iOS and Android using React Native.",
+    "duration": "11 weeks",
+    "difficulty": "Intermediate",
+    "rating": 4.7,
+    "studentsEnrolled": 3542,
+    "price": 74.99,
+    "category": "Mobile",
+    "modules": 9,
+    "totalLessons": 48,
+    "learningOutcomes": [
+      "Build native mobile apps with JavaScript",
+      "Implement navigation and state management",
+      "Work with device APIs and native modules",
+      "Publish apps to App Store and Play Store"
+    ],
+    "tags": ["Mobile Development", "React Native", "iOS", "Android"]
+  }
+]

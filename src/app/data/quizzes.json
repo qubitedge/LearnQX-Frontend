@@ -1,0 +1,164 @@
+[
+  {
+    "id": "q1",
+    "moduleId": "m1",
+    "title": "Introduction to Machine Learning Quiz",
+    "duration": 15,
+    "passingScore": 70,
+    "questions": [
+      {
+        "id": "q1-1",
+        "question": "What is the primary goal of supervised learning?",
+        "options": [
+          "To find patterns in unlabeled data",
+          "To learn from labeled training data to make predictions",
+          "To maximize rewards through trial and error",
+          "To reduce dimensionality of data"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Supervised learning uses labeled training data to learn patterns and make predictions on new, unseen data."
+      },
+      {
+        "id": "q1-2",
+        "question": "Which of the following is an example of unsupervised learning?",
+        "options": [
+          "Email spam classification",
+          "Customer segmentation",
+          "House price prediction",
+          "Image classification"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Customer segmentation is unsupervised learning as it groups similar customers without predefined labels."
+      },
+      {
+        "id": "q1-3",
+        "question": "What does 'overfitting' mean in machine learning?",
+        "options": [
+          "The model performs poorly on both training and test data",
+          "The model performs well on training data but poorly on test data",
+          "The model is too simple to capture patterns",
+          "The model has too few parameters"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Overfitting occurs when a model learns the training data too well, including noise, and fails to generalize to new data."
+      },
+      {
+        "id": "q1-4",
+        "question": "Which metric is commonly used for regression problems?",
+        "options": [
+          "Accuracy",
+          "F1 Score",
+          "Mean Squared Error (MSE)",
+          "Precision"
+        ],
+        "correctAnswer": 2,
+        "explanation": "MSE measures the average squared difference between predicted and actual values, ideal for regression."
+      },
+      {
+        "id": "q1-5",
+        "question": "What is the purpose of a validation set?",
+        "options": [
+          "To train the model",
+          "To tune hyperparameters and prevent overfitting",
+          "To make final predictions",
+          "To clean the data"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The validation set helps tune model hyperparameters and evaluate performance during training without using test data."
+      },
+      {
+        "id": "q1-6",
+        "question": "Which algorithm is best suited for binary classification?",
+        "options": [
+          "K-Means Clustering",
+          "Linear Regression",
+          "Logistic Regression",
+          "Principal Component Analysis"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Logistic Regression is specifically designed for binary classification problems."
+      },
+      {
+        "id": "q1-7",
+        "question": "What does 'feature engineering' involve?",
+        "options": [
+          "Selecting the best machine learning algorithm",
+          "Creating and selecting relevant input features",
+          "Tuning model hyperparameters",
+          "Evaluating model performance"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Feature engineering is the process of creating new features or transforming existing ones to improve model performance."
+      },
+      {
+        "id": "q1-8",
+        "question": "What is cross-validation used for?",
+        "options": [
+          "To clean noisy data",
+          "To assess model performance more reliably",
+          "To increase training data size",
+          "To visualize data patterns"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Cross-validation provides a more robust estimate of model performance by testing on multiple data splits."
+      },
+      {
+        "id": "q1-9",
+        "question": "Which of the following is a reinforcement learning concept?",
+        "options": [
+          "Gradient descent",
+          "Confusion matrix",
+          "Reward signal",
+          "Cross-entropy loss"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Reinforcement learning agents learn by receiving reward signals for their actions in an environment."
+      },
+      {
+        "id": "q1-10",
+        "question": "What is the bias-variance tradeoff?",
+        "options": [
+          "Balancing model complexity to minimize both underfitting and overfitting",
+          "Choosing between precision and recall",
+          "Deciding between supervised and unsupervised learning",
+          "Selecting the best optimization algorithm"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The bias-variance tradeoff involves finding the right model complexity to balance underfitting (high bias) and overfitting (high variance)."
+      }
+    ]
+  },
+  {
+    "id": "q2",
+    "moduleId": "m2",
+    "title": "Supervised Learning Algorithms Quiz",
+    "duration": 20,
+    "passingScore": 75,
+    "questions": [
+      {
+        "id": "q2-1",
+        "question": "What is the main assumption of linear regression?",
+        "options": [
+          "The relationship between variables is exponential",
+          "The relationship between independent and dependent variables is linear",
+          "All features are categorical",
+          "The data must be normally distributed"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Linear regression assumes a linear relationship between input features and the target variable."
+      },
+      {
+        "id": "q2-2",
+        "question": "What activation function does logistic regression use?",
+        "options": [
+          "ReLU",
+          "Sigmoid",
+          "Tanh",
+          "Softmax"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Logistic regression uses the sigmoid function to map predictions to probabilities between 0 and 1."
+      }
+    ]
+  }
+]

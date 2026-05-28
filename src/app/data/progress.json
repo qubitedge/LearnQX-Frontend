@@ -1,0 +1,46 @@
+[
+  {
+    "userId": "1",
+    "courseId": "1",
+    "enrolledDate": "2026-04-15",
+    "lastAccessed": "2026-05-26",
+    "progress": 35,
+    "completedModules": ["m1"],
+    "currentModule": "m2",
+    "totalTimeSpent": 840,
+    "streak": 12,
+    "quizScores": {
+      "q1": 85
+    }
+  },
+  {
+    "userId": "1",
+    "courseId": "2",
+    "enrolledDate": "2026-03-10",
+    "lastAccessed": "2026-05-25",
+    "progress": 60,
+    "completedModules": ["m1", "m2", "m3", "m4", "m5", "m6", "m7"],
+    "currentModule": "m8",
+    "totalTimeSpent": 1680,
+    "streak": 12,
+    "quizScores": {
+      "q1": 90,
+      "q2": 88,
+      "q3": 92
+    }
+  },
+  {
+    "userId": "1",
+    "courseId": "3",
+    "enrolledDate": "2026-05-01",
+    "lastAccessed": "2026-05-24",
+    "progress": 15,
+    "completedModules": ["m1"],
+    "currentModule": "m2",
+    "totalTimeSpent": 320,
+    "streak": 5,
+    "quizScores": {
+      "q1": 75
+    }
+  }
+]

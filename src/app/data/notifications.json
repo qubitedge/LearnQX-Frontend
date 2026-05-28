@@ -1,0 +1,52 @@
+[
+  {
+    "id": "n1",
+    "userId": "1",
+    "type": "quiz",
+    "title": "New Quiz Available",
+    "message": "Complete the Supervised Learning Quiz in Advanced Machine Learning course",
+    "timestamp": "2026-05-27T08:00:00Z",
+    "read": false,
+    "link": "/student/courses/1/quiz/q2"
+  },
+  {
+    "id": "n2",
+    "userId": "1",
+    "type": "assignment",
+    "title": "Assignment Due Soon",
+    "message": "Build a Classification Model assignment is due in 2 days",
+    "timestamp": "2026-05-26T14:30:00Z",
+    "read": false,
+    "link": "/student/courses/1/assignment/a2"
+  },
+  {
+    "id": "n3",
+    "userId": "1",
+    "type": "achievement",
+    "title": "Achievement Unlocked!",
+    "message": "You've maintained a 12-day learning streak. Keep it up!",
+    "timestamp": "2026-05-26T09:00:00Z",
+    "read": true,
+    "link": "/student/dashboard"
+  },
+  {
+    "id": "n4",
+    "userId": "1",
+    "type": "course",
+    "title": "New Module Unlocked",
+    "message": "Module 3: Neural Networks Basics is now available",
+    "timestamp": "2026-05-25T16:20:00Z",
+    "read": true,
+    "link": "/student/courses/1"
+  },
+  {
+    "id": "n5",
+    "userId": "1",
+    "type": "reminder",
+    "title": "Daily Learning Reminder",
+    "message": "Don't break your streak! Complete at least one lesson today",
+    "timestamp": "2026-05-24T10:00:00Z",
+    "read": true,
+    "link": "/student/my-courses"
+  }
+]

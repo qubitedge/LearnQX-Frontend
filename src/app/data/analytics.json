@@ -1,0 +1,46 @@
+{
+  "overview": {
+    "totalStudents": 18642,
+    "totalCourses": 124,
+    "activeUsers": 12543,
+    "totalRevenue": 1247850,
+    "enrollmentGrowth": 18.5,
+    "completionRate": 67.3,
+    "averageRating": 4.7
+  },
+  "monthlyEnrollments": [
+    { "month": "Jan", "enrollments": 1243 },
+    { "month": "Feb", "enrollments": 1456 },
+    { "month": "Mar", "enrollments": 1689 },
+    { "month": "Apr", "enrollments": 1834 },
+    { "month": "May", "enrollments": 2156 }
+  ],
+  "coursePerformance": [
+    { "course": "Full Stack Web Dev", "completion": 78, "rating": 4.9 },
+    { "course": "Machine Learning", "completion": 65, "rating": 4.8 },
+    { "course": "Data Science", "completion": 71, "rating": 4.7 },
+    { "course": "UI/UX Design", "completion": 82, "rating": 4.6 },
+    { "course": "Cloud Computing", "completion": 58, "rating": 4.8 }
+  ],
+  "categoryDistribution": [
+    { "name": "Development", "value": 35 },
+    { "name": "Data Science", "value": 25 },
+    { "name": "Design", "value": 15 },
+    { "name": "Cloud", "value": 12 },
+    { "name": "Mobile", "value": 13 }
+  ],
+  "weeklyActivity": [
+    { "day": "Mon", "hours": 3.2 },
+    { "day": "Tue", "hours": 2.8 },
+    { "day": "Wed", "hours": 4.1 },
+    { "day": "Thu", "hours": 3.5 },
+    { "day": "Fri", "hours": 2.6 },
+    { "day": "Sat", "hours": 5.2 },
+    { "day": "Sun", "hours": 4.8 }
+  ],
+  "quizPerformance": [
+    { "quiz": "Introduction to ML", "avgScore": 82, "attempts": 2543 },
+    { "quiz": "Supervised Learning", "avgScore": 76, "attempts": 1876 },
+    { "quiz": "Neural Networks", "avgScore": 71, "attempts": 1234 }
+  ]
+}
