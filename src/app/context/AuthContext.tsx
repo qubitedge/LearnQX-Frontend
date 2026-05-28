@@ -21,7 +21,7 @@ interface User {
 
 interface AuthContextType {
   user: User | null;
-  login: (email: string, password: string) => Promise<boolean>;
+  login: (email: string, password: string) => Promise<User | null>;
   logout: () => void;
   updateUser: (data: Partial<User>) => void;
   signup: (email: string, password: string, firstName: string, lastName: string) => Promise<boolean>;
@@ -48,7 +48,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  const login = async (email: string, password: string): Promise<boolean> => {
+  const login = async (email: string, password: string): Promise<User | null> => {
     let foundUser = usersData.find(
       (u) => u.email === email && u.password === password
     );
@@ -60,11 +60,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
     if (foundUser) {
       const { password: _, ...userWithoutPassword } = foundUser;
-      setUser(userWithoutPassword as User);
-      localStorage.setItem('lms_user', JSON.stringify(userWithoutPassword));
-      return true;
+      const userObj = userWithoutPassword as User;
+      setUser(userObj);
+      localStorage.setItem('lms_user', JSON.stringify(userObj));
+      return userObj;
     }
-    return false;
+    return null;
   };
 
   const logout = () => {

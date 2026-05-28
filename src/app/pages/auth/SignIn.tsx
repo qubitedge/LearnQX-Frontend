@@ -22,10 +22,14 @@ export default function SignIn() {
     setLoading(true);
 
     try {
-      const success = await login(email, password);
-      if (success) {
+      const loggedInUser = await login(email, password);
+      if (loggedInUser) {
         toast.success('Welcome back!');
-        navigate('/student/dashboard');
+        if (loggedInUser.role === 'admin') {
+          navigate('/admin/dashboard');
+        } else {
+          navigate('/student/dashboard');
+        }
       } else {
         toast.error('Invalid email or password');
       }
